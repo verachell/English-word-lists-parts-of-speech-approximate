@@ -1,5 +1,5 @@
 # English-word-lists-parts-of-speech
-Word lists categorized approximately by parts of speech. Parsed from public domain sources. WARNING: Not suitable for language teaching purposes.
+Word lists categorized approximately by parts of speech. Parsed from open source lists as shown in details and sources. WARNING: Not suitable for language teaching purposes.
 
 These word lists are the result of parsing public domain sources. I put these lists together quickly for my NaNoGenMo 2020 project and they are far from accurate. For example, not all of the words classified as verbs are guaranteed to be 100% verbs; it's possible other words might be in there. Therefore **these are not suitable as resources for teaching English.** 
 
@@ -10,7 +10,7 @@ This repository is released under the Unlicense, so you can use these word lists
 
 ## What are the sources of these words?
 I parsed them from the following sources:
-- The `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/), which I will refer to here as the "Dictionary Words". These packages were provided in the Linux distro I use at `/usr/share/dict`. I combined these two dictionaries into one with duplicates removed; these were the source of some of the words in the lists.
+- The `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/), see also  which I will refer to here as the "Dictionary Words". These packages were provided in the Linux distro I use at `/usr/share/dict`. I combined these two dictionaries into one with duplicates removed; these were the source of some of the words in the lists.
 - The public domain book at Project Gutenberg: [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002, which I will refer to here as the "Parts Of Speech Word Book". This book contains words in a word or phrase field delimted by a backslash and followed by part-of-speech field.
 
 In both cases, I have made a good-faith attempt at removing profanity, racial slurs, and other offensive language (see credits for sources of such words), while making a point of avoiding the Scunthorpe Problem. However, there is no guarantee that all offensive language is filtered out, and where you draw the line is largely up to you and your application. The words here should NOT be considered as free of offensive language; you are responsible for applying your own filters.
@@ -27,7 +27,7 @@ Adverbs were obtained by _____
 Nouns ending with `ment` were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by grep to those ending with 'ment'.
 
 ## Credits
-- `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager.
+- `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
 - [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002 at Project Gutenberg.
 
 Words used for filtering out offensive language were sourced from the following:
