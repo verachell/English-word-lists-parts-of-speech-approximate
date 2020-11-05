@@ -1,10 +1,10 @@
 # English-word-lists-parts-of-speech
-Word lists categorized mainly by parts of speech. Parsed from public domain sources. WARNING: Not suitable for language teaching purposes.
+Word lists categorized approximately by parts of speech. Parsed from public domain sources. WARNING: Not suitable for language teaching purposes.
 
 These word lists are the result of parsing public domain sources. I put these lists together quickly for my NaNoGenMo 2020 project and they are far from accurate. For example, not all of the words classified as verbs are guaranteed to be 100% verbs; it's possible other words might be in there. Therefore **these are not suitable as resources for teaching English.** 
 
 ## What is the intended use of these word lists, since they cannot be considered accurate?
-Great question! These are mainly intended for use in generative fiction such as NaNoGenMo projects. If (for example) you were to pick a random word out of the `verbs-present-tense` list, then you would be more likely to get a present tense verb than any other type of word. But it's not guaranteed that you'll get a present-tense verb, or even a verb at all. I did not have time to inspect the words one by one. If you're happy with that, then go right ahead and use the lists however you want to! 
+These are mainly intended for use in generative fiction such as NaNoGenMo projects. If (for example) you were to pick a random word out of the `verbs-present-tense` list, then you would be more likely to get a present tense verb than any other type of word. But it's not guaranteed that you'll get a present-tense verb, or even a verb at all. I did not have time to inspect the words one by one. If you are comfortable with those limitations, then go right ahead and use the lists however you want to! 
 
 This repository is released under the Unlicense, so you can use these word lists freely without attribution.
 
@@ -17,13 +17,18 @@ In both cases, I have made a good-faith attempt at removing profanity, racial sl
 
 ## How these words were parsed
 ### Verbs
-I obtained the past-tense verbs and present-tense verbs by grepping for 'ed' and 'ing' endings respectively from the Dictionary Words, then manually adding back irregular verbs that would have not been included in this crude screenign method. I also manually removed non-verb and non-past-tense words in the past-tense verbs (for example `screed`) by manually examining instances of words ending with 'eed'. As you can see, this method was merely an approximation of obtaining past- and present- tense verbs.
+I obtained the **past-tense verbs** and **present-tense verbs** by grepping for 'ed' and 'ing' endings respectively from the Dictionary Words, then manually adding back irregular verbs that would have not been included in this crude screenign method. I also manually removed non-verb and non-past-tense words in the past-tense verbs (for example `screed`) by manually examining instances of words ending with 'eed'. As you can see, this method was merely an approximation of obtaining past- and present- tense verbs.
 
-I obtained the verb infinitives from the Parts Of Speech Word Book by firstly selecting all verbs (those indicated with a V, i, or t part-of-speech code). From the result, I then excluded the words already in the past-tense and present-tense verb lists generated previously. Again, this method is a very blunt instrument, and these remaining words are not guaranteed to all be the infinitive form of the verb. 
+I obtained the **verb infinitives** from the Parts Of Speech Word Book by firstly selecting all verbs (those indicated with a V, i, or t part-of-speech code). From the result, I then excluded the words already in the past-tense and present-tense verb lists generated previously. Again, this method is a very blunt instrument, and these remaining words are not guaranteed to all be the infinitive form of the verb. 
+
+Adverbs were obtained by _____
+
+### Nouns
+Nouns ending with `ment` were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by grep to those ending with 'ment'.
 
 ## Credits
-- `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/).
-- [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002, at Project Gutenberg.
+- `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager.
+- [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002 at Project Gutenberg.
 
 Words used for filtering out offensive language were sourced from the following:
 1. [Banned Word List](http://www.bannedwordlist.com/)
