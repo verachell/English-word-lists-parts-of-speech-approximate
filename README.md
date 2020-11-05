@@ -21,6 +21,8 @@ I obtained the **past-tense verbs** and **present-tense verbs** by grepping for 
 
 I obtained the **verb infinitives** from the Parts Of Speech Word Book by firstly selecting all verbs (those indicated with a V, i, or t part-of-speech code). From the result, I then excluded the words already in the past-tense and present-tense verb lists generated previously. Again, this method is a very blunt instrument, and these remaining words are not guaranteed to all be the infinitive form of the verb. 
 
+For the **transitive past tense** and **transitive present tense** verbs, I first selected all transitive verbs from the Parts of Speech Word Book (those indicated with a t code). As an approximation to separate the tenses, of the transitive verbs, those ending in 'ed' were selected for the past tense. Transitive verbs ending in 'ing' wwere selected for the present tense.
+
 ### Nouns
 **Nouns ending with `ment`** were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by to those ending with 'ment'.
 
