@@ -1,4 +1,4 @@
-# English-word-lists-parts-of-speech
+# English-word-lists-parts-of-speech-approximate
 Word lists categorized approximately by parts of speech. Parsed from open source lists as shown in details and sources. WARNING: Not suitable for language teaching purposes.
 
 These word lists are the result of parsing. I put these lists together quickly for my NaNoGenMo 2020 project and they are far from accurate. For example, not all of the words classified as verbs are guaranteed to be 100% verbs; it's possible other words might be in there. Therefore **these are not suitable as resources for teaching English.** 
@@ -22,7 +22,7 @@ I obtained the **past-tense verbs** and **present-tense verbs** by grepping for 
 I obtained the **verb infinitives** from the Parts Of Speech Word Book by firstly selecting all verbs (those indicated with a V, i, or t part-of-speech code). From the result, I then excluded the words already in the past-tense and present-tense verb lists generated previously. Again, this method is a very blunt instrument, and these remaining words are not guaranteed to all be the infinitive form of the verb. 
 
 ### Nouns
-Nouns ending with `ment` were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by to those ending with 'ment'.
+**Nouns ending with `ment`** were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by to those ending with 'ment'.
 
 ### Other categories
 **Adverbs** were obtained by selecting adverbs from the Parts of Speech Word Book (those indicated with a v code). I manually deleted some which would not work conveniently in the place of a general adverb in generative fiction. These were words such as `yes`, `no`, `ago`, `yesterday`, and several more.
