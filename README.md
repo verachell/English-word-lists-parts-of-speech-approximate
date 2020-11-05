@@ -10,13 +10,16 @@ This repository is released under the Unlicense, so you can use these word lists
 
 ## What are the sources of these words?
 I parsed them from the following sources:
-- The `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/). These packages were provided in the Linux distro I use at `/usr/share/dict`. I combined these two dictionaries into one with duplicates removed; these were the source of some of the words in the lists.
-- The public domain book at Project Gutenberg: [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002. This book contains words in a word or phrase field delimted by a backslash and followed by part-of-speech field.
+- The `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/), which I will refer to here as the "Dictionary Words". These packages were provided in the Linux distro I use at `/usr/share/dict`. I combined these two dictionaries into one with duplicates removed; these were the source of some of the words in the lists.
+- The public domain book at Project Gutenberg: [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002, which I will refer to here as the "Parts Of Speech Word Book". This book contains words in a word or phrase field delimted by a backslash and followed by part-of-speech field.
 
 In both cases, I have made a good-faith attempt at removing profanity, racial slurs, and other offensive language (see credits for sources of such words), while making a point of avoiding the Scunthorpe Problem. However, there is no guarantee that all offensive language is filtered out, and where you draw the line is largely up to you and your application. The words here should NOT be considered as free of offensive language; you are responsible for applying your own filters.
 
 ## How these words were parsed
+### Verbs
+I obtained the past-tense verbs and present-tense verbs by grepping for 'ed' and 'ing' endings respectively from the Dictionary Words, then manually adding back irregular verbs that would have not been included in this crude screenign method. I also manually removed non-verb and non-past-tense words in the past-tense verbs (for example `screed`) by manually examining instances of words ending with 'eed'. As you can see, this method was merely an approximation of obtaining past- and present- tense verbs.
 
+I obtained the verb infinitives from the Parts Of Speech Word Book by firstly selecting all verbs (those indicated with a V, i, or t part-of-speech code). From the result, I then excluded the words already in the past-tense and present-tense verb lists generated previously. Again, this method is a very blunt instrument, and these remaining words are not guaranteed to all be the infinitive form of the verb. 
 
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/).
