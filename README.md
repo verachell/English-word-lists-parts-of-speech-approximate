@@ -27,6 +27,8 @@ I obtained the **verb infinitives** from the Parts Of Speech Word Book by firstl
 ### Other categories
 **Adverbs** were obtained by selecting adverbs from the Parts of Speech Word Book (those indicated with a v code). I manually deleted some which would not work conveniently in the place of a general adverb in generative fiction. These were words such as `yes`, `no`, `ago`, `yesterday`, and several more.
 
+The **Interjections** were the result of selecting words in the Parts of Speech Word Book indicated by an exclation mark (!) code. I manually deleted several which would not work well on their own as interjections. In usage, these would need to have an exclamation mark appended, and would typically be used in dialogue.
+
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
 - [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002 at Project Gutenberg.
