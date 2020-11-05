@@ -17,14 +17,14 @@ In both cases, I have made a good-faith attempt at removing profanity, racial sl
 
 ## How these words were parsed
 ### Verbs
-I obtained the **past-tense verbs** and **present-tense verbs** by grepping for 'ed' and 'ing' endings respectively from the Dictionary Words, then manually adding back irregular verbs that would have not been included in this crude screenign method. I also manually removed non-verb and non-past-tense words in the past-tense verbs (for example `screed`) by manually examining instances of words ending with 'eed'. As you can see, this method was merely an approximation of obtaining past- and present- tense verbs.
+I obtained the **past-tense verbs** and **present-tense verbs** by grepping for 'ed' and 'ing' endings respectively from the Dictionary Words, then manually adding back irregular verbs that would have not been included in this crude screening method. I also manually removed non-verb and non-past-tense words in the past-tense verbs (for example `screed`) by manually examining instances of words ending with 'eed'. As you can see, this method was merely an approximation of obtaining past- and present- tense verbs.
 
 I obtained the **verb infinitives** from the Parts Of Speech Word Book by firstly selecting all verbs (those indicated with a V, i, or t part-of-speech code). From the result, I then excluded the words already in the past-tense and present-tense verb lists generated previously. Again, this method is a very blunt instrument, and these remaining words are not guaranteed to all be the infinitive form of the verb. 
 
-Adverbs were obtained by _____
+Adverbs were obtained by selecting adverbs from the Parts of Speech Word Book (those indicated with a v code). I manually deleted some which would not work conveniently in the place of a general adverb in generative fiction. These were words such as `yes`, `no`, `ago`, `yesterday`, and several more.
 
 ### Nouns
-Nouns ending with `ment` were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by grep to those ending with 'ment'.
+Nouns ending with `ment` were obtained by selecting all nouns from the Parts of Speech Word Book (those indicated with an N code), and then limiting by to those ending with 'ment'.
 
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
