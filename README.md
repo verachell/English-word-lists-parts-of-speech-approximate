@@ -1,7 +1,7 @@
 # English-word-lists-parts-of-speech
 Word lists categorized approximately by parts of speech. Parsed from open source lists as shown in details and sources. WARNING: Not suitable for language teaching purposes.
 
-These word lists are the result of parsing public domain sources. I put these lists together quickly for my NaNoGenMo 2020 project and they are far from accurate. For example, not all of the words classified as verbs are guaranteed to be 100% verbs; it's possible other words might be in there. Therefore **these are not suitable as resources for teaching English.** 
+These word lists are the result of parsing. I put these lists together quickly for my NaNoGenMo 2020 project and they are far from accurate. For example, not all of the words classified as verbs are guaranteed to be 100% verbs; it's possible other words might be in there. Therefore **these are not suitable as resources for teaching English.** 
 
 ## What is the intended use of these word lists, since they cannot be considered accurate?
 These are mainly intended for use in generative fiction such as NaNoGenMo projects. If (for example) you were to pick a random word out of the `verbs-present-tense` list, then you would be more likely to get a present tense verb than any other type of word. But it's not guaranteed that you'll get a present-tense verb, or even a verb at all. I did not have time to inspect the words one by one. If you are comfortable with those limitations, then go right ahead and use the lists however you want to! 
