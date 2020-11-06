@@ -28,6 +28,8 @@ For the **transitive past tense** and **transitive present tense** verbs, I firs
 
 I obtained **Plural nouns** by selecting the plural words from the Parts of Speech Word Book (those indicated with a p code) and removing verbs and non-plural nouns by a mix of grep and of manual inspection.
 
+**Noun phrases** were selected from the Parts of Speech Word Book (those indicated with an h code).
+
 ### Other categories
 **Adverbs** were obtained by selecting adverbs from the Parts of Speech Word Book (those indicated with a v code). I manually deleted some which would not work conveniently in the place of a general adverb in generative fiction. These were words such as `yes`, `no`, `ago`, `yesterday`, and several more.
 
