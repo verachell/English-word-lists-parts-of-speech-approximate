@@ -37,6 +37,8 @@ The **Interjections** were the result of selecting words in the Parts of Speech 
 
 **Counjunctions** were parsed by selecting words in the Parts of Speech Word Book indicated by an C code. This was a small list, so I was able to inspect all of it manually. I deleted some words that would not have worked well here or were not in common usage (e.g. `whither`).
 
+I obtained **Prepositions** by selecting words in the Parts of Speech Word Book indicated by a P code. This was a small list, so I was able to inspect all of it manually. I deleted some words that would not have worked well in present-day fiction or were not in common usage (e.g. `ere`, `circa`).
+
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
 - [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002 at Project Gutenberg.
