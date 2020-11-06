@@ -35,7 +35,7 @@ I obtained **Plural nouns** by selecting the plural words from the Parts of Spee
 
 The **Interjections** were the result of selecting words in the Parts of Speech Word Book indicated by an exclation mark (!) code. I manually deleted several which would not work well on their own as interjections. In usage, these would need to have an exclamation mark appended, and would typically be used in dialogue.
 
-**Counjunctions** were parsed by selecting words in the Parts of Speech Word Book indicated by an C code. This was a small list, so I was able to inspect all of it manually. I deleted some words that would not have worked well here or were not in common usage (e.g. `whither`) and added in some other conjunctions manually.
+**Counjunctions** were parsed by selecting words in the Parts of Speech Word Book indicated by an C code. This was a small list, so I was able to inspect all of it manually. I deleted some words that would not have worked well here or were not in common usage (e.g. `whither`).
 
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
