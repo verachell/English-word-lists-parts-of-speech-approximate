@@ -1,5 +1,5 @@
 # English-word-lists-parts-of-speech-approximate
-Word lists categorized approximately by parts of speech. Parsed from open source lists as shown in details and sources. WARNING: Not suitable for language teaching purposes.
+Word lists categorized approximately by parts of speech. Parsed from open-source lists as shown in details and sources. WARNING: Not suitable for language teaching purposes.
 
 These word lists are the result of parsing. I put these lists together quickly for my NaNoGenMo 2020 project and they are far from accurate. For example, not all of the words classified as verbs are guaranteed to be 100% verbs; it's possible other words might be in there. Therefore **these are not suitable as resources for teaching English.** 
 
@@ -38,6 +38,8 @@ The **Interjections** were the result of selecting words in the Parts of Speech 
 **Counjunctions** were parsed by selecting words in the Parts of Speech Word Book indicated by an C code. This was a small list, so I was able to inspect all of it manually. I deleted some words that would not have worked well here or were not in common usage (e.g. `whither`).
 
 I obtained **Prepositions** by selecting words in the Parts of Speech Word Book indicated by a P code. This was a small list, so I was able to inspect all of it manually. I deleted some words that would not have worked well in present-day fiction or were not in common usage (e.g. `ere`, `circa`).
+
+**Adjectives** were parsed by selecting words in the Parts of Speech Word Book indicated by an A code. 
 
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
