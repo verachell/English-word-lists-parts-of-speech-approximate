@@ -15042,7 +15042,6 @@ rust joint
 rusty blackbird
 rye bread
 rye whiskey
-s caps
 sabbatical year
 sable antelope
 saccharin sodium
