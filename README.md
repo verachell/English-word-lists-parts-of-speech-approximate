@@ -41,6 +41,8 @@ I obtained **Prepositions** by selecting words in the Parts of Speech Word Book 
 
 **Adjectives** were parsed by selecting words in the Parts of Speech Word Book indicated by an A code. 
 
+I parsed **Ly Adverbs** by grepping for 'ly' at the end of a line in the Adverbs file.
+
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
 - [Part-of-Speech II by Grady Ward](http://www.gutenberg.org/ebooks/3203) 2002 at Project Gutenberg.
