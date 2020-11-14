@@ -28,7 +28,6 @@ golly
 goody
 gosh
 hah
-hard cheese
 hard lines
 ha
 heck
@@ -46,9 +45,7 @@ pooh
 prithee
 pshaw
 rats
-roger
 shoo
-sucks
 ugh
 viva
 whew
@@ -56,4 +53,3 @@ whoa
 whoopee
 whoops
 wow
-yippee
