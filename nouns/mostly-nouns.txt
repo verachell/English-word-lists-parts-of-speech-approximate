@@ -1686,7 +1686,6 @@ bystander
 byte
 byway
 byword
-b
 cabana
 cabaret
 cabby
@@ -3123,7 +3122,6 @@ cytology
 cytoplasm
 czarina
 czar
-c
 dabbler
 dacha
 dachshund
@@ -3917,7 +3915,6 @@ dysentery
 dysfunction
 dyslexia
 dyspepsia
-d
 eagerness
 eager
 eaglet
@@ -4469,7 +4466,6 @@ eyestrain
 eyetooth
 eyewitness
 eyrie
-e
 fabrication
 fabric
 facade
@@ -5042,7 +5038,6 @@ futility
 futurity
 fuze
 fuzziness
-f
 gabardine
 gaberdine
 gable
@@ -5538,7 +5533,6 @@ gypsum
 gyration
 gyroscope
 gyro
-g
 haberdashery
 haberdasher
 habitability
@@ -6126,7 +6120,6 @@ hysterectomy
 hysteresis
 hysteria
 hysterics
-h
 iamb
 ibex
 ibis
@@ -6688,7 +6681,6 @@ itemization
 iteration
 ivory
 ivy
-i
 jabberer
 jabot
 jackal
@@ -6804,7 +6796,6 @@ justification
 justness
 jute
 juxtaposition
-j
 kabob
 kaftan
 kaleidoscope
@@ -6926,7 +6917,6 @@ krypton
 kudos
 kudzu
 kumquat
-k
 labium
 laboratory
 laborer
@@ -7417,7 +7407,6 @@ lynching
 lynx
 lyre
 lyricist
-l
 macadam
 macaroni
 macaroon
@@ -8252,7 +8241,6 @@ mystique
 mythologist
 mythology
 myth
-m
 nabob
 nacre
 nadir
@@ -8809,7 +8797,6 @@ oxygen
 oxymoron
 ox
 ozone
-o
 pacemaker
 pacesetter
 pachyderm
@@ -9953,7 +9940,6 @@ pyromaniac
 pyromania
 python
 pyx
-p
 quackery
 quadrangle
 quadrangular
@@ -10021,7 +10007,6 @@ quorum
 quotation
 quota
 quotient
-q
 rabbinate
 rabbi
 rabies
@@ -10621,7 +10606,6 @@ rustler
 rutabaga
 ruthlessness
 rye
-r
 saboteur
 saccharin
 sachem
@@ -12041,7 +12025,6 @@ synthesizer
 syphilis
 syphon
 system
-s
 tabernacle
 tableau
 tablecloth
@@ -12881,7 +12864,6 @@ utility
 utilization
 utterance
 uvula
-u
 vacancy
 vaccination
 vaccine
@@ -13129,7 +13111,6 @@ vulgarism
 vulgarity
 vulture
 vulva
-v
 wackiness
 wack
 wadding
@@ -13473,7 +13454,6 @@ wrongfulness
 wrongheadedness
 wrongness
 wryness
-w
 xenon
 xenophobia
 xerography
@@ -13510,7 +13490,6 @@ youth
 yttrium
 yucca
 yule
-y
 zaniness
 zealot
 zealousness
@@ -13538,4 +13517,3 @@ zoo
 zucchini
 zwieback
 zygote
-z
