@@ -51,7 +51,6 @@ whereupon
 wherever
 where
 whether
-whiles
 while
 whilst
 why
