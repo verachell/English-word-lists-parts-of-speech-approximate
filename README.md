@@ -43,7 +43,7 @@ I obtained **Prepositions** by selecting words in the Parts of Speech Word Book 
 
 I parsed **Ly Adverbs** by grepping for 'ly' at the end of a line in the Adverbs file.
 
-In "other categories", the file safe-american-british-english-all-words.txt is a list of all the American English and British English words (combined with duplicates removed) that begin with a lowercase letter, do not contain punctuation, and have been filtered for bad words as described on this page. These words make a good general-use English dictionary, however, be aware the filters used here may or may not suit your purposes.
+In "other categories", the file **safe-american-british-english-all-words.txt** is a list of all the American English and British English words (combined with duplicates removed) that begin with a lowercase letter, do not contain punctuation, and have been filtered for bad words as described on this page. These words make a good general-use English dictionary, however, be aware the filters used here may or may not suit your purposes.
 
 ## Credits
 - `british-english` and `american-english` dictionaries from the [SCOWL/aspell package](http://wordlist.aspell.net/) via the standard Debian package manager. See also [https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright](https://metadata.ftp-master.debian.org/changelogs//main/s/scowl/scowl_7.1-1_copyright)
